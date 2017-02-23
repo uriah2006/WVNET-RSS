@@ -47,7 +47,7 @@ function boj_dashboard_example_display()
 	$boj_option = get_option( 'boj_dashboard_widget_rss ');
 
 	//if option is empty set a default
-	$boj_rss_feed = ( $boj_option ) ? $boj_option : 'http://wordpress.org/news/feed/';
+	$boj_rss_feed = ( $boj_option ) ? $boj_option : 'http://wvnet.edu/support/category/support-links/feed/';
 
 	//retrieve the RSS feed and display it
 	echo '<div class="rss-widget">';
